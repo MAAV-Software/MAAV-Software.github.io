@@ -1,0 +1,12 @@
+.TitleImage {
+  height: 48px;
+}
+
+.AppBarFiller {
+  flex-grow: 1;
+}
+
+.MuiCard-root {
+  margin: 2em;
+  padding: 2em;
+}
