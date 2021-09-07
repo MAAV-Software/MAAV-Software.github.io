@@ -8,7 +8,7 @@ import { pages } from './pages/pages';
 
 // Component Imports
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Link,
   Route,
   Switch,
