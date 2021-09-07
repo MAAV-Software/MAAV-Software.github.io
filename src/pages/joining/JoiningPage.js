@@ -1,10 +1,8 @@
 import {
   Button,
   Card,
-  Link,
 } from '@material-ui/core';
 
-import festifall from '../../media/festifall-location.png';
 import mass_meeting from '../../media/mass-meeting-location.png';
 
 import './JoiningPage.css';
@@ -15,7 +13,11 @@ export default function JoiningPage() {
       <Card>
         <h2>Joining MAAV</h2>
         <p>
-          If you want to join MAAV, hit the button below and complete the given steps.
+          If you want to join MAAV, you MUST be a student or incoming student at the
+          University of Michigan (we are unable to accept non-student team members at this time).
+        </p>
+        <p>
+          Hit the button below and complete the given steps.
           You will be asked to:
         </p>
         <ul>
@@ -32,14 +34,13 @@ export default function JoiningPage() {
       <Card>
         <h2>Upcoming Recruiting Events</h2>
         <div id="events">
-          <div id="festifall">
-            <p>Festifall on North Campus: Tuesday, 8/31 from 5-8pm ET</p>
-            <p>Located between Bell Tower and STAMPS Auditorium (see map)</p>
-          </div>
-          <img src={festifall} alt="Festifall Map" />
           <div id="mass-meeting">
             <p>Mass Meeting on North Campus: Tuesday, 9/7 from 7-8pm ET</p>
             <p>Ford Robotics Building, Room 1060</p>
+            <p>
+              This event will be recorded, and the recording will be shared via email.
+              Slides will also be linked and emailed after the meeting.
+            </p>
           </div>
           <img src={mass_meeting} alt="Robotics Building Map" />
         </div>
