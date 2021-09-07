@@ -1,0 +1,20 @@
+#gallery img:hover {
+  cursor: pointer;
+}
+
+.modal-card {
+  display: block;
+  margin: 0;
+  padding: 1em;
+
+  max-height: 75%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-image {
+  width: 100%;
+}
