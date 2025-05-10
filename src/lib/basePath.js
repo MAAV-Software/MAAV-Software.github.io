@@ -1,2 +1,4 @@
 //export default ''
-export default '/maav-website'
+export default import.meta.env.VITE_BASE_PATH || '/maav-website';
+
+

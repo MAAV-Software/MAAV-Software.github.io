@@ -11,20 +11,32 @@
   <title>{title}</title>
 </svelte:head>
 
-<Content {title}>
+<Content title="A Little Bit About Us">
   <p>
-    Michigan Autonomous Aerial Vehicles (MAAV) is a student-run group at the University of Michigan that competes in the International Aerial Robotics Competition.
+    Michigan Autonomous Aerial Vehicles (MAAV) is a student-run group at the University of Michigan that is participating in the annual 
+    <a href="https://suas-competition.org/" class="underline hover:text-blue-600 active:text-blue-800">SUAS Competition</a>. 
+    Members of MAAV engage in the design, building, and testing of an autonomous unmanned aerial system (UAS) 
+    while furthering multiple areas of Computer Science and Aerospace Engineering research. 
   </p>
   <p>
-    MAAV strives to provide practical, hands-on experience for students by competing annually in the International Aerial Robotics Competition (IARC). Members of MAAV engage in the design, building, and testing of an autonomous unmanned aerial system (UAS) while furthering multiple areas of Computer Science and Aerospace Engineering research. Learn more about the current and past missions of the International Aerial Robotics Competition by clicking <a href="http://www.aerialroboticscompetition.org/" class="underline hover:text-blue-600 active:text-blue-800">here</a>.
+    MAAV as an organization has existed within UMich for nearly 15 years. 
+    However, post-COVID we went through a period of major knowledge loss and 
+    have essentuially restarted as a team with members interested in drones, 
+    but little to slight hobbyist level knowledge of them. 
+    Last year we attempted to attend the SUAS competition but were unable to get a 
+    working flight demo with autonomous control. Going into the competition this year our 
+    main focus was on getting a working demo, and being able to compete in any way we can. 
+    We are thrilled with our progrss the past few years and are exctited to learn from the competetition!
   </p>
 </Content>
 <Content title="Advisor">
   <p>
-    Our staff advisor is Assistant Professor Vasileios Tzoumas, a member of the Department of Aerospace Engineering and of the Robotics Institute of the University of Michigan. Our work would not be possible without his assistance and expertise.
-    You can find his website <a href="https://vasileiostzoumas.com/" class="underline hover:text-blue-600 active:text-blue-800">here</a>.
+    Our staff advisor is Assistant Professor Derrick Yeo, a lecturer of Robotics Engineering at the University of Michigan. 
+    Our work would not be possible without his continued assistance and expertise.
+    You can find some more info about him 
+    <a href="https://robotics.umich.edu/people/faculty/derrick-yeo/" class="underline hover:text-blue-600 active:text-blue-800">here</a>.
   </p>
-  <img src={Tzoumas} alt="Assistant Professor Vasileios Tzoumas" class="w-auto h-40" width="344" height="351">
+  <img src={"https://robotics.umich.edu/_astro/dyeo.BokCXjxS_FYuCN.webp"} alt="Professor Derrick Yeo" class="w-auto h-60" width="344" height="351">
 </Content>
 <Content title="Project Timeline">
   <div class="w-screen text-start -mx-8">
