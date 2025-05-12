@@ -22,7 +22,7 @@ import InstagramEmbed from '$components/InstagramEmbed.svelte'
   <p>
     Michigan Autonomous Aerial Vehicles (MAAV) is a student-run project team at the University of Michigan that 
     competes in the annual <a href="https://suas-competition.org/" 
-    class="underline hover:text-blue-600 active:text-blue-800">Student Unmanned Aerial Systems</a> (SUAS) Competetion.
+    class="underline hover:text-blue-600 active:text-blue-800">Student Unmanned Aerial Systems</a> (SUAS) Competition.
   </p>
   <p>
     MAAV strives to provide practical, hands-on experience for students by competing annually in the 

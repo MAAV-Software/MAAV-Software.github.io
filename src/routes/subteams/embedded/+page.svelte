@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Content from '$components/Content.svelte';
 	import basePath from '$lib/basePath';
-	import Circuits from '$assets/images/circuits.png';
+	import Quad from '$assets/images/QuadDesk.jpg';
 	const title = 'Embedded Systems';
 </script>
 
@@ -14,7 +14,7 @@
 		href={`${basePath}/subteams/`}
 		class="font-light text-xl hover:text-blue-600 active:text-blue-800">Back to Subteams</a
 	>
-	<img src={Circuits} alt="Circuit Board" class="w-11/12 h-auto" width="1370" height="675" />
+	<img src={Quad} alt="Circuit Board" class="w-11/12 h-auto" width="1370" height="675" />
 	<p>
 		The Embedded Systems subteam designs and builds the vehicles' electrical hardware and
 		electronics, as well as integrates all components into a cohesive product.
@@ -28,8 +28,19 @@
 	</p>
 	<h3 class="text-xl font-medium">Integration</h3>
 	<p>
-		Embedded Systems is mainly considerfed the "bridge" between the hardware and the software of the
-		drone. More specefically, ES mainly focuses on all the circuity requred for the vehicle and ensures 
-		that all of the components are effectivley working togther. 
+		Embedded Systems is mainly considered the "bridge" between the hardware and the software of the
+		drone. More specifically, ES mainly focuses on all the circuity required for the vehicle and ensures 
+		that all of the components are effectively working together. 
 	</p>
+	<h3 class="text-xl font-medium">Team Members</h3>
+	<ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
+		<li>  Cadin Cross  </li>
+		<li>  Eli Goreta  </li>
+		<li>  Ian Stough  </li>
+		<li>  James Spielman  </li>
+		<li>  Kaanan Datt  </li>
+		<li>  Tiffany Cheung  </li>
+		<li>  Vishal Dattathreya  </li>
+		<li>  Wooyoung Song  </li>
+	</ol>
 </Content>

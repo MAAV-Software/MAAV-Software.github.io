@@ -1,7 +1,7 @@
 <script lang="ts">
   import Content from '$components/Content.svelte'
   import basePath from '$lib/basePath'
-  import TestDrone from '$assets/images/test-drone.jpg'
+  import GitScreenshot from '$assets/images/Git.png'
   const title = 'Software'
 </script>
 
@@ -10,8 +10,8 @@
 </svelte:head>
 
 <Content {title}>
-  <a href={`${basePath}/subteams/`} class="font-light text-lg hover:text-blue-600 active:text-blue-800">Back to Subteams</a>
-  <img src={TestDrone} alt="Test Drone" class="w-11/12 h-auto" width="3888" height="2592">
+  <a href={`${basePath}/subteams/`} class="font-light text-xl hover:text-blue-600 active:text-blue-800">Back to Subteams</a>
+  <img src={GitScreenshot} alt="Test Drone" class="w-11/12 h-auto" width="3888" height="2592">
   <h3 class="text-xl font-medium">Computer Vision</h3>
   <p>
     Our Software team leverages the Raspberry Pi Arducam to capture and analyze the surrounding environment. 
@@ -30,4 +30,14 @@
     In addition to core mission tasks, our Software subteam develops tools to support and streamline the team's workflow. 
     We maintain a Gazebo simulation that replicates the competition environment, simulating sensor inputs to test and validate our software in a realistic virtual setting. 
     This simulated world includes key mission elements such as airfields, waypoints, and drop targets, ensuring our software is mission-ready.
+  </p>
+  <h3 class="text-xl font-medium">Team Members</h3>
+	<ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
+		<li>  Dermot Molony  </li>
+		<li>  Dervin Tian  </li>
+		<li>  Habib Shakour  </li>
+		<li>  Jacob Eggerd  </li>
+		<li>  Lindsay Huynh  </li>
+		<li>  Mehmed Kerem Uludag </li>
+	</ol>
 </Content>

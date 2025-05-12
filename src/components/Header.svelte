@@ -42,7 +42,7 @@
       {/if}
     {/each}
   </div>
-  <a href="https://forms.gle/C9xCty7A2RkK2x7YA" class="ml-auto">
+  <a href="https://forms.gle/RR3aCsgZxHZ6NAzK8" class="ml-auto">
     <Button class="flex gap-2 items-center transition-all text-white bg-blue-700 active:bg-blue-900 focus:ring focus:ring-blue-400 hover:bg-blue-800">
       <span>Join</span>
       <IconJoin class="text-lg hidden md:inline" />
