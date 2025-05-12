@@ -1,33 +1,23 @@
-import adapter from '@sveltejs/adapter-static'
-import preprocess from 'svelte-preprocess'
-import basePath from './src/lib/basePath.js'
+import adapter from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
-	preprocess: preprocess({
-  	postcss: true,
-  }),
-	kit: {
-		adapter: adapter({
-			pages: 'build',
-      assets: 'build',
-      precompress: false,
-		}),
-		alias: {
-			$assets: 'src/assets',
-			$components: 'src/components',
-		},
-		prerender: {
-			default: true,
-		},
-		trailingSlash: 'always',
-	},
-}
+const base = process.env.VITE_BASE_PATH || '/maav-website';
 
-if (basePath && basePath !== '') {
-	config.kit.paths = { base: basePath }
-}
-
-export default config
+export default {
+  kit: {
+    adapter: adapter(), // Automatically picks the best adapter for deployment
+    alias: {
+      $lib: 'src/lib',
+      $components: 'src/components',
+      $routes: 'src/routes',
+      $assets: 'src/assets'
+    },
+    paths: {
+        base
+    },
+  },
+  preprocess: preprocess({
+    postcss: true, // Enable Tailwind CSS via PostCSS
+    typescript: true
+  })
+};

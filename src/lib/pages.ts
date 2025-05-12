@@ -38,16 +38,6 @@ export const internal = [
     showInNav: true,
   },
   {
-    title: 'Pictures',
-    path: '/pictures/',
-    showInNav: true,
-  },
-  {
-    title: 'Blog',
-    path: '/blog/',
-    showInNav: true,
-  },
-  {
     title: 'Join',
     path: 'https://forms.gle/C9xCty7A2RkK2x7YA',
     showInNav: false,
