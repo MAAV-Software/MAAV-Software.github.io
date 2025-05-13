@@ -1,6 +1,7 @@
 {
 	"name": "maav-website",
 	"version": "0.0.1",
+	"homepage": "https://maav-software.github.io/maav-website",
 	"scripts": {
 		"dev": "vite dev --open",
 		"host": "vite dev --open --host",

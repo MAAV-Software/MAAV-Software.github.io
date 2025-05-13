@@ -5,7 +5,10 @@ const base = process.env.VITE_BASE_PATH || '/maav-website';
 
 export default {
   kit: {
-    adapter: adapter(), // Automatically picks the best adapter for deployment
+    adapter: adapter({
+      fallback: 'index.html',  // 👈 Enables SPA routing fallback
+      strict: false            // 👈 Allows dynamic routes that aren't prerendered
+    }),
     alias: {
       $lib: 'src/lib',
       $components: 'src/components',
@@ -13,11 +16,11 @@ export default {
       $assets: 'src/assets'
     },
     paths: {
-        base
-    },
+      base
+    }
   },
   preprocess: preprocess({
-    postcss: true, // Enable Tailwind CSS via PostCSS
+    postcss: true,
     typescript: true
   })
 };
