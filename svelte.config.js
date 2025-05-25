@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
-const base = process.env.VITE_BASE_PATH || '/maav-website';
+//const base = process.env.VITE_BASE_PATH || '/maav-website';
 
 export default {
   kit: {
@@ -16,7 +16,7 @@ export default {
       $assets: 'src/assets'
     },
     paths: {
-      base
+      base: ''
     }
   },
   preprocess: preprocess({
