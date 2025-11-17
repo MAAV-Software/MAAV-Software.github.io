@@ -1,7 +1,7 @@
 <script lang="ts">
   import Content from '$components/Content.svelte'
   import basePath from '$lib/basePath'
-  import GitScreenshot from '$assets/images/Git.png'
+  import GitScreenshot from '$assets/images/software.jpeg'
   const title = 'Software'
 </script>
 
@@ -15,8 +15,8 @@
   <h3 class="text-xl font-medium">Computer Vision</h3>
   <p>
     Our Software team leverages the Raspberry Pi Arducam to capture and analyze the surrounding environment. 
-    To meet the challenges of our new mission, we develop and refine state-of-the-art algorithms for tasks such as detection, mapping, and tracking using images from the drone. 
-    These algorithms were executed on a Jetson Orin Nano embedded GPU to ensure high-performance processing in real-time.
+    To meet the challenges of our new mission, we develop and refine state-of-the-art algorithms for tasks such as detection, autonomous flight, and tracking using images from the drone. 
+    These algorithms were executed on a Raspberry Pi 5 with an AI Hat to ensure high-performance processing in real-time.
   </p>
   <h3 class="text-xl font-medium">Guidance, Navigation, and Control</h3>
   <p>
