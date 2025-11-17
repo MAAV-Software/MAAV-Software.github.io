@@ -16,7 +16,7 @@
   <p>
     Our Software team leverages the Raspberry Pi Arducam to capture and analyze the surrounding environment. 
     To meet the challenges of our new mission, we develop and refine state-of-the-art algorithms for tasks such as detection, mapping, and tracking using images from the drone. 
-    These algorithms are executed on a Jetson Orin Nano embedded GPU to ensure high-performance processing in real-time.
+    These algorithms were executed on a Jetson Orin Nano embedded GPU to ensure high-performance processing in real-time.
   </p>
   <h3 class="text-xl font-medium">Guidance, Navigation, and Control</h3>
   <p>
@@ -33,11 +33,16 @@
   </p>
   <h3 class="text-xl font-medium">Team Members</h3>
 	<ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
-		<li>  Dermot Molony  </li>
 		<li>  Dervin Tian  </li>
 		<li>  Habib Shakour  </li>
-		<li>  Jacob Eggerd  </li>
+		<li>  Jerry Zhu  </li>
 		<li>  Lindsay Huynh  </li>
-		<li>  Mehmed Kerem Uludag </li>
+		<li>  Steffano Martinez </li>
+    <li>  Oscar de Castro </li>
+    <li>  Mimmo Baluyut </li>
+    <li>  Noah Horowitz </li>
+    <li>  Charles Ferguson </li>
+    <li>  Quinn Hague </li>
+    <li>  Swati Sahu </li>
 	</ol>
 </Content>
