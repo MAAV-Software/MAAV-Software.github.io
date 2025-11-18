@@ -3,7 +3,7 @@ import{h as r,t as l,a as m}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59
     These algorithms are executed on a Raspberry Pi with an Hailo AI Hat to ensure high-performance processing in real-time.</p> 
     <h3 class="text-xl font-medium">Computer Vision</h3> 
     <p>Computer Vision is a critical focus of our team. 
-    We process images from an onboard camera to detect objects of interest and determine their position using inference models such as YOLO.
+    We process images from an onboard camera to detect objects of interest and determine their position using inference models such as YOLO.<p>
     <h3 class="text-xl font-medium">Guidance, Navigation, and Control</h3> 
     <p>Guidance, Navigation, and Control is another critical focus of our team. 
     We process inputs from the PX4 flight controller to determine the drone's position and generate precise flight paths to guide it to its destination.
