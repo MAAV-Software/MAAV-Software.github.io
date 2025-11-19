@@ -23,6 +23,8 @@ import{h as r,t as l,a as m}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59
     <li>  Noah Horowitz </li>
     <li>  Charles Ferguson </li>
     <li>  Quinn Hague </li>
+    <li>  Justin Rosales </li>
+    <li>  Brady Jensenius </li>
     <li>  Swati Sahu </li>
     </ol>`,1);
     function S(s){const e="Software";r(t=>{d.title=e}),c(s,{title:e,children:(t,v)=>{var i=b(),a=h(i);o(a,"href",`${f}/subteams/`);var n=p(a,2);o(n,"src",g),u(16),m(t,i)},$$slots:{default:!0}})}export{S as component};
