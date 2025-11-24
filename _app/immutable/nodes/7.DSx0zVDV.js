@@ -12,6 +12,8 @@ import{h as r,t as l,a as m}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59
     <h3 class="text-xl font-medium">Utilities</h3> <p>In addition to core mission tasks, our Software subteam develops tools to support and streamline the team's workflow. 
     We maintain a Gazebo simulation that replicates the competition environment, simulating sensor inputs to test and validate our software in a realistic virtual setting. 
     This simulated world includes key mission elements such as airfields, waypoints, and drop targets, ensuring our software is mission-ready.</p> 
+    <h3 class="text-xl font-medium">Tech Stack</h3>
+    <p> Python, C++, OpenCV, ROS <p> 
     <h3 class="text-xl font-medium">Team Members</h3> <ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
     <li>  Dervin Tian  </li>
     <li>  Habib Shakour  </li>
