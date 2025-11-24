@@ -18,5 +18,6 @@ import{h as r,t as n,a as h}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59
 		<li>Tiffany Cheung</li> 
 		<li>Vishal Dattathreya</li> 
 		<li>Shreyan Banerjee</li>
+		<li>Kyle DiMalanta<li>
 		<li>Wooyoung Song</li></ol>`,1);
 		function E(o){const e="Embedded Systems";r(t=>{m.title=e}),u(o,{title:e,children:(t,w)=>{var a=b(),s=c(a);i(s,"href",`${p}/subteams/`);var l=d(s,2);i(l,"src",g),f(14),h(t,a)},$$slots:{default:!0}})}export{E as component};
