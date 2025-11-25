@@ -1,10 +1,4 @@
-import{h as r,t as n,a as h}from"../chunks/4VM-x7rA.js";
-import"../chunks/B9fgz59Y.js";
-import{$ as m,Z as c,V as d,_ as f}from"../chunks/DoBdwIHE.js";
-import{b as i}from"../chunks/CEpIJIzL.js";
-import{C as u}from"../chunks/DQyDsOwF.js";
-import{b as p}from"../chunks/DMwpYjxI.js";const g=""+new URL("../assets/QuadDesk.CtxfzA4t.jpg",import.meta.url).href;
-var b=n(`
+import{h as r,t as n,a as h}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59Y.js";import{$ as m,Z as c,V as d,_ as f}from"../chunks/DoBdwIHE.js";import{b as i}from"../chunks/CEpIJIzL.js";import{C as u}from"../chunks/DQyDsOwF.js";import{b as p}from"../chunks/DMwpYjxI.js";const g=""+new URL("../assets/QuadDesk.CtxfzA4t.jpg",import.meta.url).href;var b=n(`
 	<a class="font-light text-xl hover:text-blue-600 active:text-blue-800">Back to Subteams</a> 
 	<img alt="Circuit Board" class="w-11/12 h-auto" width="1370" height="675">
 	<p>The Embedded Systems subteam designs and builds the vehicles' electrical hardware and
@@ -30,10 +24,4 @@ var b=n(`
 		<li>Shreyan Banerjee</li>
 		<li>Sandeep Sawhney<li>
 		<li>Kyle DiMalanta<li></ol>`,1);
-function E(o){const e="Embedded Systems";
-	r(t=>{m.title=e}),
-	u(o,{title:e,children:(t,w)=>{var a=b(),s=c(a);i(s,"href",`${p}/subteams/`);
-	var l=d(s,2);
-	i(l,"src",g),f(14),h(t,a)},$$slots:{default:!0}})
-}
-export{E as component};
+		function E(o){const e="Embedded Systems";r(t=>{m.title=e}),u(o,{title:e,children:(t,w)=>{var a=b(),s=c(a);i(s,"href",`${p}/subteams/`);var l=d(s,2);i(l,"src",g),f(14),h(t,a)},$$slots:{default:!0}})}export{E as component};
