@@ -13,9 +13,11 @@ var b=n(`<a class="font-light text-xl hover:text-blue-600 active:text-blue-800">
     To build, we use carbon fiber layups, machining, and additive manufacturing processes. 
     To test, we fly (and crash) the vehicle at the MAir outdoor test facility to ensure its structural integrity.</p> 
     <h3 class="text-xl font-medium">Team Members</h3> <ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
-    <li>Avery Xi</li> 
-    <li>Matthew Sperry</li> 
-    <li>Olivia Ma</li></ol>`,1);
+    <li>Enrique Vezga</li> 
+    <li>Andrew Yang</li> 
+    <li>Rahil Bhavan</li> 
+    <li>Patrick Wang</li>
+    </ol>`,1);
     function M(i){
         const t="Structures";
         l(e=>{h.title=t}),

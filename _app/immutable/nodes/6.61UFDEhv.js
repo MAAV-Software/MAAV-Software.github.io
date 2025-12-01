@@ -11,14 +11,17 @@ import{h as r,t as n,a as h}from"../chunks/4VM-x7rA.js";import"../chunks/B9fgz59
 		that all of the components are effectively working together.</p> 
 		<h3 class="text-xl font-medium">Team Members</h3> 
 		<ol class="list-disc flex justify-center items-center flex-wrap gap-x-6 font-light line-height-1">
-		<li>Eli Goreta</li> 
-		<li>Ian Stough</li> 
 		<li>James Spielman</li> 
-		<li>Kaanan Datt</li> 
+		<li>Kaanan Datt</li>
+		<li>Eli Goreta</li> 
+		<li>Ian Stough</li>  
 		<li>Tiffany Cheung</li>
 		<li>Wooyoung Song</li> 
 		<li>Vishal Dattathreya</li> 
 		<li>Shreyan Banerjee</li>
 		<li>Sandeep Sawhney</li>
-		<li>Kyle DiMalanta</li></ol>`,1);
+		<li>Kyle DiMalanta</li>
+		<li>Anthony Aung</li>
+		<li>Joshua Mier</li>
+		</ol>`,1);
 		function E(o){const e="Embedded Systems";r(t=>{m.title=e}),u(o,{title:e,children:(t,w)=>{var a=b(),s=c(a);i(s,"href",`${p}/subteams/`);var l=d(s,2);i(l,"src",g),f(14),h(t,a)},$$slots:{default:!0}})}export{E as component};
