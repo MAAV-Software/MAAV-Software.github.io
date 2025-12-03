@@ -17,6 +17,8 @@ var b=n(`<a class="font-light text-xl hover:text-blue-600 active:text-blue-800">
     <li>Andrew Yang</li> 
     <li>Rahil Bhavan</li> 
     <li>Patrick Wang</li>
+    <li>Will Hernly</li>
+    <li>Lucca Venegas</li>
     </ol>`,1);
     function M(i){
         const t="Structures";
